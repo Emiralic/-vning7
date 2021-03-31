@@ -1,0 +1,40 @@
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flexbox-item {
+    width: 200px;
+    margin: 0px;
+    border: 0px solid rgb(43, 41, 41);
+    background-color: #131212;
+}
+
+.flexbox-item-1 {
+    min-height: 50px;
+    min-width: 1000px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-color: rgb(58, 54, 54);
+    display: flex;
+    justify-content: flex-end ;
+    
+}
+
+.flexbox-item-2 {
+    min-height: 600px;
+    min-width: 1000px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    background-image: url(movie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexbox-item-3 {
+    min-height: 70px;
+    min-width: 1000px;
+    box-shadow: 0 19px 38px rgb(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+i:hover { 
+    background-color: red}
